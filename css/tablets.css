@@ -1,0 +1,45 @@
+@media (max-width: 744px){
+  /* ------ header ------ */
+
+  header{
+    padding-inline: 24px;
+  }
+
+  /* ------ home_section ------ */
+
+  .home_section{
+    height: 480px;
+    padding-top: 32px;
+  }
+
+  /* ------ home_section2 ------ */
+
+  .home_section2{
+    height: 527px;
+    padding-block: 48px;
+    padding-left: 24px;
+  }
+
+  /* ------ footer ------ */
+
+  footer{
+    padding-inline: 141px;
+  }
+
+  /* ------- catalog_sect ------- */
+
+  .catalog_sect{
+    padding: 48px 32px;
+  }
+
+  /* ------- card_section -------- */
+
+  .none2{
+    display: none;
+  }
+
+  .card_section{
+    grid-template-columns: 1fr;
+    height: 2016px;
+  }
+}
