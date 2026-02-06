@@ -1,20 +1,20 @@
-@media (max-width: 744px){
+@media (max-width: 744px) {
   /* ------ header ------ */
 
-  header{
+  header {
     padding-inline: 24px;
   }
 
   /* ------ home_section ------ */
 
-  .home_section{
+  .home_section {
     height: 480px;
     padding-top: 32px;
   }
 
   /* ------ home_section2 ------ */
 
-  .home_section2{
+  .home_section2 {
     height: 527px;
     padding-block: 48px;
     padding-left: 24px;
@@ -22,24 +22,75 @@
 
   /* ------ footer ------ */
 
-  footer{
+  footer {
     padding-inline: 141px;
+    column-gap: 40px;
   }
 
   /* ------- catalog_sect ------- */
 
-  .catalog_sect{
+  .catalog_sect {
     padding: 48px 32px;
+    height: 2016px;
   }
 
   /* ------- card_section -------- */
 
-  .none2{
+  .none2 {
     display: none;
   }
 
-  .card_section{
+  .card_section {
     grid-template-columns: 1fr;
-    height: 2016px;
+    gap: 40px;
   }
+
+  /* ------ contact_section ------- */
+
+  .contact_sect {
+    padding: 64px 24px;
+    height: 807px;
+  }
+
+  .form_sect {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 48px;
+    padding: 16px;
+  }
+
+  form{
+    max-width: 440px;
+  }
+
+  .form_p {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .contact_address {
+    row-gap: 24px;
+  }
+
+  iframe{
+    height: 200px;
+  }
+
+  form, #message, .submit_btn, .contact_address{
+    max-width: 664px;
+  }
+
+  .address_div{
+    column-gap: 42px;
+    justify-content: center;
+  }
+
+  
+
+
 }

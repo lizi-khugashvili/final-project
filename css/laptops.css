@@ -48,5 +48,11 @@
   grid-template-columns: 1fr 1fr;
   }
 
+  /* ------ contact_section ------- */
+
+  .contact_sect {
+  padding: 140px 32px;
+  }
+
 
 }

@@ -53,32 +53,145 @@
     /* flex-wrap: wrap; */
     flex-direction: column;
     row-gap: 40px;
-  }
-
-  .footer_sect1,
-  .footer_sect2,
-  .address_sect{
     align-items: center;
   }
 
+.address_sect{
+  justify-content: center; 
+  align-items: center;   
+  text-align: center;
 }
 
-@media (max-width: 320px){
+.social_ul{
+  justify-content: center; 
+  align-items: center;
+}
+
+  .footer_sect1,
+  .footer_sect2,
+  .brands_ul,
+  .Information_ul,
+  .brands_li,
+  .footer_title {
+    align-items: center;
+  }
+
+  /* ------- catalog_sect ------- */
+
+  .catalog_sect {
+    padding: 32px 20px;
+    height: 1936px;
+  }
+
+  /* -------- filter_sect -------- */
+
+  .filter_sect {
+    margin-bottom: 40px;
+  }
+
+  .h_filter {
+    display: none;
+  }
+
+  .h_btntext {
+    display: none;
+  }
+
+  .sort_btn {
+    padding: 4px 6px;
+  }
+
+  /* ------ catalog_arrow_sect ------ */
+
+  .catalog_arrow_sect {
+    margin-top: 40px;
+  }
+
+  .catalog_pages {
+    column-gap: 45px;
+  }
+
+  .Previous_btn {
+    padding: 8px 14px;
+  }
+
+  .Previous_p {
+    display: none;
+  }
+
+  .next_btn {
+    padding: 8px 14px;
+  }
+
+  .Next_p {
+    display: none;
+  }
+
+  /* ------ contact_section ------- */
+
+  .contact_sect {
+    padding: 64px 20px;
+    height: 883px;
+  }
+
+  .inputsection {
+    flex-direction: column;
+    row-gap: 36px;
+  }
+}
+
+@media (max-width: 320px) {
   /* ------ header_320 ------ */
 
-  header{
+  header {
     padding-inline: 8px;
   }
 
   /* ------ home_section_320 ------ */
 
-  .home_section{
+  .home_section {
     height: 320px;
   }
 
   /* ------ home_section2_320 ------ */
 
-  .home_section2{
+  .home_section2 {
     padding-left: 8px;
+  }
+
+  /* ------- catalog_sect ------- */
+
+  .catalog_sect {
+    padding: 32px 20px;
+    height: 1936px;
+  }
+
+  /* ------ contact_section ------- */
+
+  .contact_sect {
+    padding: 48px 8px;
+    height: 808px;
+  }
+
+  .form_sect {
+    padding: 16px 8px;
+  }
+
+  .form_p {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .inputsection {
+    row-gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .submit_btn {
+    margin-top: 24px;
   }
 }
